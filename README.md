@@ -1,6 +1,6 @@
 # Transformer From Scratch - Lab 4
 
-## 📌 Descrição
+##  Descrição
 
 Este projeto implementa um Transformer completo (Encoder + Decoder) utilizando apenas NumPy, baseado no paper "Attention Is All You Need".
 
@@ -8,16 +8,16 @@ O objetivo é demonstrar o funcionamento interno da arquitetura Transformer sem 
 
 ---
 
-## ⚙️ Arquitetura
+##  Arquitetura
 
 O modelo é composto por:
 
-### 🔹 Encoder
+###  Encoder
 - Self-Attention
 - Add & Norm
 - Feed Forward Network (FFN)
 
-### 🔹 Decoder
+###  Decoder
 - Masked Self-Attention
 - Cross-Attention (usa saída do Encoder)
 - Add & Norm
@@ -26,7 +26,7 @@ O modelo é composto por:
 
 ---
 
-## 🔁 Fluxo de Execução
+##  Fluxo de Execução
 
 1. A entrada é convertida em embeddings
 2. O Encoder gera uma representação contextual (encoder_output)
@@ -37,7 +37,7 @@ O modelo é composto por:
 
 ---
 
-## ▶️ Como Executar
+##  Como Executar
 
 ```bash
 pip install numpy
