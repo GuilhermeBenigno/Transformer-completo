@@ -42,3 +42,7 @@ O modelo é composto por:
 ```bash
 pip install numpy
 python transformer_complete.py
+
+## 🤖 Uso de IA
+
+Partes do código foram geradas/complementadas com auxílio de IA, sendo totalmente revisadas, compreendidas e adaptadas pelo aluno.
